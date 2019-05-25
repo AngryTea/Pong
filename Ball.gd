@@ -5,7 +5,10 @@ var direction = Vector2(0,0)
 
 
 func start():
-	direction = Vector2((randi() % 3 ) - 1, 0)
+	if randf() < 0.5:
+		direction.x = -1
+	else:
+		direction.x = 1
 	
 func _ready():
 	start()
@@ -21,3 +24,5 @@ func _process(delta):
 		print(collision)
 		if collision.collider.has_method("hit"):
 			collision.collider.hit()
+			queue_free()
+			get_parent().ballReset()
