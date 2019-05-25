@@ -12,5 +12,7 @@ func _process(delta):
 	var collision = move_and_collide(direction * speed)
 	if collision:
 		direction = direction.bounce(collision.normal)
+		direction.y = randf() * 2 - 1
+		direction = direction.normalized()
 		if collision.collider.has_method("hit"):
 			collision.collider.hit()
