@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Main.gd" type="Script" id=1]
 [ext_resource path="res://Ball.gd" type="Script" id=2]
@@ -13,6 +13,9 @@ extents = Vector2( 26.2784, 149.925 )
 
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 517.683, 28.1282 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 10, 278.118 )
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 1 )
@@ -78,3 +81,15 @@ stretch_mode = 2
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
 position = Vector2( 510.838, -7.05577 )
 shape = SubResource( 2 )
+
+[node name="leftWall" type="StaticBody2D" parent="."]
+position = Vector2( -10.1612, 294.6 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="leftWall"]
+shape = SubResource( 3 )
+
+[node name="rightWall" type="StaticBody2D" parent="."]
+position = Vector2( 1033.72, 293.509 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="rightWall"]
+shape = SubResource( 3 )
