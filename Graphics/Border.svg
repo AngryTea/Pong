@@ -14,7 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="Border.svg"
+   inkscape:export-filename="C:\Users\D064996\git\Pong\Graphics\Border.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -62,15 +65,15 @@
     <rect
        style="fill:#37474f;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect3753"
-       width="5"
+       width="7"
        height="50"
        x="0"
        y="1002.3622" />
     <rect
        y="1002.3622"
-       x="45"
+       x="43"
        height="50"
-       width="5"
+       width="7"
        id="rect3755"
        style="fill:#37474f;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <rect
@@ -92,15 +95,15 @@
     <rect
        style="fill:#37474f;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect3765"
-       width="5"
+       width="7"
        height="50"
-       x="30"
+       x="28.666666"
        y="1002.3622" />
     <rect
        y="1002.3622"
-       x="15"
+       x="14.333333"
        height="50"
-       width="5"
+       width="7"
        id="rect3767"
        style="fill:#37474f;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   </g>
