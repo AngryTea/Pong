@@ -19,10 +19,6 @@ config/name="Pong"
 run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
 
-[display]
-
-window/stretch/mode="viewport"
-
 [input]
 
 left_up={
