@@ -70,7 +70,7 @@ shape = SubResource( 2 )
 
 [node name="Border" type="TextureRect" parent="Top"]
 margin_top = -29.0
-margin_right = 1026.0
+margin_right = 1050.0
 margin_bottom = 21.0
 texture = ExtResource( 6 )
 stretch_mode = 2
@@ -84,7 +84,7 @@ position = Vector2( -6.10352e-05, 598.835 )
 
 [node name="Border" type="TextureRect" parent="Bottom"]
 margin_top = -29.0
-margin_right = 1026.0
+margin_right = 1050.0
 margin_bottom = 21.0
 texture = ExtResource( 6 )
 stretch_mode = 2
